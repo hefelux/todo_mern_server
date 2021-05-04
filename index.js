@@ -28,6 +28,6 @@ app.get('/', (req,res) => {
     res.send('Hola Mundo');
 })
 
-app.listen(PORT, () => {
-    console.log(`EL servidor está funcionando en el puerto: ${ PORT }`);
+app.listen(port, '0.0.0.0', () => {
+    console.log(`EL servidor está funcionando en el puerto: ${ port }`);
 });
